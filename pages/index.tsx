@@ -10,14 +10,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="overflow-hidden">
-        <div className="w-[45rem] h-[25.7rem] fixed z-10 right-0 top-48 shadow-xl shadow-red-400 border-l-4 border-y-4 border-black">
+      <div className="">
+        <div className="w-[45rem] h-[25.7rem] fixed z-10 right-[-100px] top-48 shadow-xl shadow-red-400 border-l-4 border-y-4 border-black overflow-hidden">
           {/* <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
             width='100%'
             height='100%'
           /> */}
           <video
-            className=""
+            className="w-[110%]"
             autoPlay
             loop
             muted

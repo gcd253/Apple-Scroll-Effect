@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import ReactPlayer from "react-player";
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +11,12 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="overflow-hidden">
-        <div className="w-[45rem] h-[35rem] bg-none fixed z-10 right-0 top-24 shadow-xl shadow-red-400 border-t-4 border-l-4 border-b-4 border-black"></div>
+        <div className="w-[45rem] h-[35rem] bg-none fixed z-10 right-0 top-24 shadow-xl shadow-red-400 border-t-4 border-l-4 border-b-4 border-black">
+          <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+            width='100%'
+            height='100%'
+          />
+        </div>
       </div>
 
       <main className="relative">

@@ -11,25 +11,24 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="overflow-hidden">
-        <div className="w-[45rem] h-[35rem] bg-none fixed z-10 right-0 top-24 shadow-xl shadow-red-400 border-t-4 border-l-4 border-b-4 border-black">
+        <div className="w-[45rem] h-[25.7rem] fixed z-10 right-0 top-48 shadow-xl shadow-red-400 border-l-4 border-y-4 border-black">
           {/* <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
             width='100%'
             height='100%'
           /> */}
           <video
-            
+            className=""
             autoPlay
             loop
             muted
             src={"/volcano.mp4"}
-            style={{ width: "100%", height: "100%" }}
           />
         </div>
       </div>
 
-      <main className="relative">
+      <main>
         <div className="w-100 h-[95vh] bg-red-300 flex items-center">
-          <div className="text-lg w-2/5 p-12 bg-white rounded-lg flex font-bold text-black ml-[2rem]">
+          <div className="text-lg w-2/5 p-12 bg-white rounded-lg font-bold text-black ml-[2rem]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -79,4 +78,3 @@ const Home: NextPage = () => {
 };
 
 export default Home;
-

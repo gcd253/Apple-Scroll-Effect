@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import ReactPlayer from "react-player";
-import Volcano from "../public/volcano.mp4"
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +16,11 @@ const Home: NextPage = () => {
             width='100%'
             height='100%'
           /> */}
-          <video loop src={"/volcano.mp4"} style={{ width: "100%", height: "100%" }} />
+          <video
+            loop
+            src={"/volcano.mp4"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
 
@@ -73,3 +76,5 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+//test for github

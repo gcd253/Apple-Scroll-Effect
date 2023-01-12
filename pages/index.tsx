@@ -17,7 +17,10 @@ const Home: NextPage = () => {
             height='100%'
           /> */}
           <video
+            
+            autoPlay
             loop
+            muted
             src={"/volcano.mp4"}
             style={{ width: "100%", height: "100%" }}
           />

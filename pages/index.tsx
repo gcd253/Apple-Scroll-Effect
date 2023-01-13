@@ -28,14 +28,17 @@ const Home: NextPage = () => {
 
       <main>
         <div className="w-100 h-[95vh] bg-red-300 flex items-center">
-          <div className="text-lg w-2/5 p-12 bg-white rounded-lg font-bold text-black ml-[2rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <div className="text-lg w-2/5 p-24 rounded-lg font-bold text-white ml-[3rem]">
+            <div className="float-left mr-1">Lorem ipsum </div>
+            <div className="opacity-60">
+            dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
+            </div>
           </div>
         </div>
 

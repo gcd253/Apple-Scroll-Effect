@@ -22,7 +22,6 @@ const Home: NextPage = () => {
             loop
             muted
             src={"/volcano.mp4"}
-            //meaningless change
           />
         </div>
       </div>

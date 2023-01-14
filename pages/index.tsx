@@ -25,13 +25,13 @@ const Home: NextPage = () => {
       <main>
         <div className="w-100 h-[95vh] bg-white flex items-center">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-black ml-[3rem]">
-            <div className="float-left mr-1">Lorem ipsum </div>
-            <div className="opacity-40">
+            <span>Lorem ipsum </span>
+            <span className="opacity-40">
               dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore. Ut enim ad minim
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat.
-            </div>
+            </span>
             <div className="text-blue-600 mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>
@@ -40,13 +40,13 @@ const Home: NextPage = () => {
 
         <div className="w-100 h-[90vh] bg-green-500 flex items-center">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
-            <div className="float-left mr-1">Lorem ipsum </div>
-            <div className="opacity-60">
+            <span>Lorem ipsum </span>
+            <span className="opacity-60">
               dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis laboris nisi ut aliquip
               ex ea commodo.
-            </div>
+            </span>
             <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>
@@ -54,13 +54,13 @@ const Home: NextPage = () => {
         </div>
         <div className="w-100 h-[90vh] bg-violet-700 flex items-center">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
-            <div className="float-left mr-1">Lorem ipsum </div>
-            <div className="opacity-60">
+            <span>Lorem ipsum </span>
+            <span className="opacity-60">
               dolor sit amet, consectetur elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, exercitation ullamco nisi ut aliquip
               ex ea commodo laboris.
-            </div>
+            </span>
             <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>
@@ -68,13 +68,13 @@ const Home: NextPage = () => {
         </div>
         <div className="w-100 h-[95vh] bg-red-500 flex items-center">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
-            <div className="float-left mr-1">Lorem ipsum </div>
-            <div className="opacity-60">
+            <span>Lorem ipsum </span>
+            <span className="opacity-60">
               dolor sit amet, consectetur elit, sed do tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis nostrud exercitation ullamco laboris
               ex ea commodo adipiscing.
-            </div>
+            </span>
             <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>

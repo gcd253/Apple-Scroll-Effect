@@ -11,11 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="">
-        <div className="w-[45rem] h-[25.7rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
-          {/* <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
-            width='100%'
-            height='100%'
-          /> */}
+        <div className="w-[55rem] h-[31.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
           <video
             className="w-[110%]"
             autoPlay
@@ -36,7 +32,7 @@ const Home: NextPage = () => {
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat.
             </div>
-            <div className="text-blue-600 mt-4 hover:underline decoration-2 underline-offset-2">
+            <div className="text-blue-600 mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>
           </div>
@@ -51,7 +47,7 @@ const Home: NextPage = () => {
               veniam, quis laboris nisi ut aliquip
               ex ea commodo.
             </div>
-            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2">
+            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>
           </div>
@@ -65,7 +61,7 @@ const Home: NextPage = () => {
               veniam, exercitation ullamco nisi ut aliquip
               ex ea commodo laboris.
             </div>
-            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2">
+            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>
           </div>
@@ -79,7 +75,7 @@ const Home: NextPage = () => {
               veniam, quis nostrud exercitation ullamco laboris
               ex ea commodo adipiscing.
             </div>
-            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2">
+            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer">
               Learn More
             </div>
           </div>

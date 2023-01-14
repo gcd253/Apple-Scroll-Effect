@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="">
-        <div className="w-[45rem] h-[25.7rem] fixed z-10 right-[-100px] top-48 shadow-xl shadow-red-400 border-l-4 border-y-4 border-black overflow-hidden">
+        <div className="w-[45rem] h-[25.7rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
           {/* <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
             width='100%'
             height='100%'
@@ -27,52 +27,61 @@ const Home: NextPage = () => {
       </div>
 
       <main>
-        <div className="w-100 h-[95vh] bg-red-300 flex items-center">
-          <div className="text-lg w-2/5 p-24 rounded-lg font-bold text-white ml-[3rem]">
+        <div className="w-100 h-[95vh] bg-white flex items-center">
+          <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-black ml-[3rem]">
             <div className="float-left mr-1">Lorem ipsum </div>
-            <div className="opacity-60">
-            dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <div className="opacity-40">
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </div>
+            <div className="text-blue-600 mt-4 hover:underline decoration-2 underline-offset-2">
+              Learn More
             </div>
           </div>
         </div>
 
-        <div className="w-100 h-[90vh] bg-orange-300 flex items-center">
-          <div className="text-lg w-2/5 p-12 bg-white rounded-lg flex font-bold text-black ml-[2rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+        <div className="w-100 h-[90vh] bg-green-500 flex items-center">
+          <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
+            <div className="float-left mr-1">Lorem ipsum </div>
+            <div className="opacity-60">
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis laboris nisi ut aliquip
+              ex ea commodo.
+            </div>
+            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2">
+              Learn More
+            </div>
           </div>
         </div>
-        <div className="w-100 h-[90vh] bg-yellow-300 flex items-center">
-          <div className="text-lg w-2/5 p-12 bg-white rounded-lg flex font-bold text-black ml-[2rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+        <div className="w-100 h-[90vh] bg-violet-700 flex items-center">
+          <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
+            <div className="float-left mr-1">Lorem ipsum </div>
+            <div className="opacity-60">
+              dolor sit amet, consectetur elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, exercitation ullamco nisi ut aliquip
+              ex ea commodo laboris.
+            </div>
+            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2">
+              Learn More
+            </div>
           </div>
         </div>
-        <div className="w-100 h-[95vh] bg-green-300 flex items-center">
-          <div className="text-lg w-2/5 p-12 bg-white rounded-lg flex font-bold text-black ml-[2rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+        <div className="w-100 h-[95vh] bg-red-500 flex items-center">
+          <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
+            <div className="float-left mr-1">Lorem ipsum </div>
+            <div className="opacity-60">
+              dolor sit amet, consectetur elit, sed do tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris
+              ex ea commodo adipiscing.
+            </div>
+            <div className="text-white mt-4 hover:underline decoration-2 underline-offset-2">
+              Learn More
+            </div>
           </div>
         </div>
       </main>

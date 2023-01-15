@@ -11,13 +11,13 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="">
-        <div className="w-[55rem] h-[31.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
+        <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
           <video
             className="w-[110%]"
             autoPlay
             loop
             muted
-            src={"/volcano.mp4"}
+            src={"/surfer.mp4"}
           />
         </div>
       </div>

@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import ReactPlayer from "react-player";
+import { useRef } from "react";
+import { motion } from "framer-motion";
 
 const Home: NextPage = () => {
+
   return (
     <div>
       <Head>
@@ -12,15 +14,15 @@ const Home: NextPage = () => {
 
       <div className="">
         <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
-          <video className="w-[110%]" autoPlay loop muted src={"/surfer.mp4"} />
-          <video className="w-[110%]" autoPlay loop muted src={"/volcano.mp4"} />
-          <video className="w-[110%]" autoPlay loop muted src={"/sailboat.mp4"} />
-          <video className="w-[110%]" autoPlay loop muted src={"/massage.mp4"} />
+          <motion.video className="w-[110%] sticky" autoPlay loop muted src={"/surfer.mp4"} />
+          <motion.video className="w-[110%]" autoPlay loop muted src={"/volcano.mp4"} />
+          <motion.video className="w-[110%]" autoPlay loop muted src={"/sailboat.mp4"} />
+          <motion.video className="w-[110%]" autoPlay loop muted src={"/massage.mp4"} />
         </div>
       </div>
 
       <main>
-        <div className="w-100 h-[95vh] bg-white flex items-center">
+        <div className="w-100 h-[95vh] bg-white flex items-center" id="white">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-black ml-[3rem]">
             <span>Lorem ipsum+. </span>
             <span className="opacity-40">
@@ -35,7 +37,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="w-100 h-[90vh] bg-green-500 flex items-center">
+        <div className="w-100 h-[90vh] bg-green-500 flex items-center" id="green">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
             <span>Lorem ipsum </span>
             <span className="opacity-60">
@@ -48,7 +50,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-100 h-[90vh] bg-violet-700 flex items-center">
+
+        <div className="w-100 h-[90vh] bg-violet-700 flex items-center" id="violet">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
             <span>Lorem ipsum </span>
             <span className="opacity-60">
@@ -61,7 +64,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-100 h-[95vh] bg-red-500 flex items-center">
+        <div className="w-100 h-[95vh] bg-red-500 flex items-center" id="red">
           <div className="text-xl w-2/5 p-36 rounded-lg font-semibold text-white ml-[3rem]">
             <span>Lorem ipsum </span>
             <span className="opacity-60">
@@ -80,3 +83,5 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+// i need to turn each section div into a component which can be used as a reference for its unique video

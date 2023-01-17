@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import Stack from "./components/stack";
 
 const Home: NextPage = () => {
 
@@ -77,6 +78,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+        <Stack background={"bg-blue-400"} textContent={""}/>
       </main>
     </div>
   );

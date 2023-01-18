@@ -52,7 +52,8 @@ const Home: NextPage = () => {
               incididunt ut labore. Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat."
-          accentColor=""
+          accentColor="text-black"
+          opacity="opacity-40"
         />
 
         <Stack
@@ -60,7 +61,8 @@ const Home: NextPage = () => {
           textContent="dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis laboris nisi ut aliquip ex ea commodo."
-          accentColor=""
+          accentColor="text-white"
+          opacity="opacity-60"
         />
 
         <Stack
@@ -68,7 +70,8 @@ const Home: NextPage = () => {
           textContent="dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               exercitation ullamco nisi ut aliquip ex ea commodo laboris."
-          accentColor=""
+          accentColor="text-white"
+          opacity="opacity-60"
         />
 
         <Stack
@@ -76,7 +79,8 @@ const Home: NextPage = () => {
           textContent="dolor sit amet, consectetur elit, sed do tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis
               nostrud exercitation ullamco laboris ex ea commodo adipiscing."
-          accentColor=""
+          accentColor="text-white"
+          opacity="opacity-60"
         />
 
         <div

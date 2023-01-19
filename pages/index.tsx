@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { motion } from "framer-motion";
 import Stack from "./components/stack";
 
 const Home: NextPage = () => {
@@ -10,39 +9,6 @@ const Home: NextPage = () => {
         <title>Apple Scroll Effect</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {/* <div className="">
-        <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
-          <motion.video
-            className="w-[110%] sticky"
-            autoPlay
-            loop
-            muted
-            src={"/surfer.mp4"}
-          />
-          <motion.video
-            className="w-[110%]"
-            autoPlay
-            loop
-            muted
-            src={"/volcano.mp4"}
-          />
-          <motion.video
-            className="w-[110%]"
-            autoPlay
-            loop
-            muted
-            src={"/sailboat.mp4"}
-          />
-          <motion.video
-            className="w-[110%]"
-            autoPlay
-            loop
-            muted
-            src={"/massage.mp4"}
-          />
-        </div>
-      </div> */}
 
       <main>
         <Stack
@@ -92,5 +58,3 @@ const Home: NextPage = () => {
 };
 
 export default Home;
-
-// i need to turn each section div into a component which can be used as a reference for its unique video

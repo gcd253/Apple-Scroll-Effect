@@ -23,7 +23,7 @@ const Stack = ({
         <span>Lorem ipsum+. </span>
         <span className={opacity}>{textContent}</span>
         <div
-          className={`${accentColor} text-blue-600 mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer`}
+          className={`${accentColor} mt-4 hover:underline decoration-2 underline-offset-2 cursor-pointer`}
         >
           Learn More
         </div>
@@ -36,7 +36,7 @@ const Stack = ({
           src={videoSource}
           style={{
             opacity: isInView ? 1 : 0,
-            transition: "0.4s",
+            transition: "0.4s"
           }}
           viewport={{ root: scrollRef }}
         ></video>

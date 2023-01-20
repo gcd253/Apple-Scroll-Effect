@@ -51,7 +51,6 @@ const Home: NextPage = () => {
           opacity="opacity-60"
           videoSource={"/surfer.mp4"}
         />
-
       </main>
     </div>
   );

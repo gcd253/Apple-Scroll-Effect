@@ -36,7 +36,7 @@ const Stack = ({
           src={videoSource}
           style={{
             opacity: isInView ? 1 : 0,
-            transition: "0.4s"
+            transition: "0.4s",
           }}
           viewport={{ root: scrollRef }}
         ></video>
@@ -46,3 +46,5 @@ const Stack = ({
 };
 
 export default Stack;
+
+// may need to consult reddit/stackoverflow 

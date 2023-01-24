@@ -28,7 +28,8 @@ const Stack = ({
           Learn More
         </div>
       </div>
-      <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black overflow-hidden">
+      <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black ">
+        <div className="">
         <video
           autoPlay
           loop
@@ -36,10 +37,11 @@ const Stack = ({
           src={videoSource}
           style={{
             opacity: isInView ? 1 : 0,
-            transition: "0.4s",
           }}
           viewport={{ root: scrollRef }}
+          className="object-cover"
         ></video>
+        </div>
       </div>
     </div>
   );
@@ -47,4 +49,4 @@ const Stack = ({
 
 export default Stack;
 
-// may need to consult reddit/stackoverflow 
+// may need to consult reddit/stackoverflow

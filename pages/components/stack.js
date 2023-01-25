@@ -28,8 +28,7 @@ const Stack = ({
           Learn More
         </div>
       </div>
-      <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black ">
-        <div className="">
+      <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black ">   
         <video
           autoPlay
           loop
@@ -39,9 +38,8 @@ const Stack = ({
             opacity: isInView ? 1 : 0,
           }}
           viewport={{ root: scrollRef }}
-          className="object-cover"
+          className="object-cover scale-y-100 inline overflow-clip ease-in-out duration-300 origin-bottom"
         ></video>
-        </div>
       </div>
     </div>
   );

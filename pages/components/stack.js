@@ -28,7 +28,7 @@ const Stack = ({
           Learn More
         </div>
       </div>
-      <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black ">   
+      <div className="w-[55rem] h-[29.3rem] fixed z-10 right-[-100px] top-48 shadow-xl border-l-4 border-y-4 border-black ">
         <video
           autoPlay
           loop
@@ -47,4 +47,3 @@ const Stack = ({
 
 export default Stack;
 
-// may need to consult reddit/stackoverflow
